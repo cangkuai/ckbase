@@ -93,9 +93,9 @@ public class ckbase
                     break;
                 }else {
                     Player otherplay=tool.getplayerbyname(names,playlist);
-                    player.teleportTo(otherplay.getX(),otherplay.getY(),otherplay.getZ());
-                    tool.sendmassages(player,languages[5]);
-                    iohelpers.setdata("back",player.getName().getString(),new Double[]{otherplay.getX(),otherplay.getY(),otherplay.getZ()});
+                    otherplay.teleportTo(player.getX(),player.getY(),player.getZ());
+                    tool.sendmassages(otherplay,languages[5]);
+                    iohelpers.setdata("back",otherplay.getName().getString(),new Double[]{player.getX(),player.getY(),player.getZ()});
                     event.setCanceled(true);
                     break;
                 }
