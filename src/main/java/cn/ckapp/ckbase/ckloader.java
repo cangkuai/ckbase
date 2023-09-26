@@ -21,7 +21,7 @@ public class ckloader {
                 file2.createNewFile();
 
                 LOGGER.info("create home database successfully");
-                } catch (IOException e) {
+            } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
@@ -70,17 +70,17 @@ public class ckloader {
                 FileWriter writer = new FileWriter(file7);
                 writer.write(
                         "An unknown error has occurred\n" +
-                        "Send successfully, please wait for the other player to agree\n" +
-                        " want to tp you , please send /tpaccept to accept.\n" +
-                        "Player is not online\n" +
-                        "nobody want to tp you\n" +
-                        "tp successfully\n" +
-                        "this command need op`s permission\n" +
-                        "you haven't set up your home.\n" +
-                        "set successfully\n" +
-                        "unknown warp name\n" +
-                        "no records to return\n" +
-                        "change successfully"
+                                "Send successfully, please wait for the other player to agree\n" +
+                                " want to tp you , please send /tpaccept to accept.\n" +
+                                "Player is not online\n" +
+                                "nobody want to tp you\n" +
+                                "tp successfully\n" +
+                                "this command need op`s permission\n" +
+                                "you haven't set up your home.\n" +
+                                "set successfully\n" +
+                                "unknown warp name\n" +
+                                "no records to return\n" +
+                                "change successfully"
                 );
                 writer.flush();
                 writer.close();
@@ -96,17 +96,17 @@ public class ckloader {
                 FileWriter writer = new FileWriter(file8);
                 writer.write(
                         "发生了一个未知错误\n" +
-                        "邀请发送成功，请等待对方玩家同意\n" +
-                        "想要tp你，请输入/tpaccept同意这个邀请\n" +
-                        "玩家不在线\n" +
-                        "没有玩家想要tp你\n" +
-                        "传送成功\n" +
-                        "这个指令需要op权限\n" +
-                        "你还没有设置家\n" +
-                        "设置成功\n" +
-                        "未知的坐标名\n" +
-                        "没有可以返回的记录\n" +
-                        "切换成功"
+                                "邀请发送成功，请等待对方玩家同意\n" +
+                                "想要tp你，请输入/tpaccept同意这个邀请\n" +
+                                "玩家不在线\n" +
+                                "没有玩家想要tp你\n" +
+                                "传送成功\n" +
+                                "这个指令需要op权限\n" +
+                                "你还没有设置家\n" +
+                                "设置成功\n" +
+                                "未知的坐标名\n" +
+                                "没有可以返回的记录\n" +
+                                "切换成功"
                 );
                 writer.flush();
                 writer.close();
